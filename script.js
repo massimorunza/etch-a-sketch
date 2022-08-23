@@ -53,9 +53,9 @@ btn.addEventListener('click', () => {
     });
 
 container.addEventListener('mouseover', (e) => {
-    e.target.classList.add('purple');
+    e.target.classList.add('black');
     console.log(e.target);
-})
+});
 
 
 
