@@ -9,3 +9,6 @@ It has to be inside the first <div class="container">.
 
 I need to create three divs with a class of "item-cont" and inside them 3 divs with a class of "item".
 
+# Let's create the hover effect
+
+I want to do that in JavaScript so let's see how  I can do that.

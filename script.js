@@ -48,9 +48,15 @@ btn.addEventListener('click', () => {
             itemCont.appendChild(item);
         }
         }} else {
-            alert('Insert a value up to 100');
+            alert('Insert a value between 0 and 100');
         }
     });
+
+container.addEventListener('mouseover', (e) => {
+    e.target.classList.add('purple');
+    console.log(e.target);
+})
+
 
 
 
